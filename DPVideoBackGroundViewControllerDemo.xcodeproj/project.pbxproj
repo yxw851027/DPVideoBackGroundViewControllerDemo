@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A22BC6F61BF499020077D6E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC6F51BF499020077D6E4 /* main.m */; };
+		A22BC6F91BF499020077D6E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC6F81BF499020077D6E4 /* AppDelegate.m */; };
+		A22BC6FC1BF499020077D6E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC6FB1BF499020077D6E4 /* ViewController.m */; };
+		A22BC6FF1BF499020077D6E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22BC6FD1BF499020077D6E4 /* Main.storyboard */; };
+		A22BC7011BF499020077D6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22BC7001BF499020077D6E4 /* Assets.xcassets */; };
+		A22BC7041BF499020077D6E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22BC7021BF499020077D6E4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A22BC6F11BF499020077D6E4 /* DPVideoBackGroundViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPVideoBackGroundViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22BC6F51BF499020077D6E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A22BC6F71BF499020077D6E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A22BC6F81BF499020077D6E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A22BC6FA1BF499020077D6E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A22BC6FB1BF499020077D6E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A22BC6FE1BF499020077D6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A22BC7001BF499020077D6E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A22BC7031BF499020077D6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A22BC7051BF499020077D6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A22BC6EE1BF499020077D6E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A22BC6E81BF499020077D6E4 = {
+			isa = PBXGroup;
+			children = (
+				A22BC6F31BF499020077D6E4 /* DPVideoBackGroundViewControllerDemo */,
+				A22BC6F21BF499020077D6E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A22BC6F21BF499020077D6E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A22BC6F11BF499020077D6E4 /* DPVideoBackGroundViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A22BC6F31BF499020077D6E4 /* DPVideoBackGroundViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A22BC6F71BF499020077D6E4 /* AppDelegate.h */,
+				A22BC6F81BF499020077D6E4 /* AppDelegate.m */,
+				A22BC6FA1BF499020077D6E4 /* ViewController.h */,
+				A22BC6FB1BF499020077D6E4 /* ViewController.m */,
+				A22BC6FD1BF499020077D6E4 /* Main.storyboard */,
+				A22BC7001BF499020077D6E4 /* Assets.xcassets */,
+				A22BC7021BF499020077D6E4 /* LaunchScreen.storyboard */,
+				A22BC7051BF499020077D6E4 /* Info.plist */,
+				A22BC6F41BF499020077D6E4 /* Supporting Files */,
+			);
+			path = DPVideoBackGroundViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		A22BC6F41BF499020077D6E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A22BC6F51BF499020077D6E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A22BC6F01BF499020077D6E4 /* DPVideoBackGroundViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A22BC7081BF499020077D6E4 /* Build configuration list for PBXNativeTarget "DPVideoBackGroundViewControllerDemo" */;
+			buildPhases = (
+				A22BC6ED1BF499020077D6E4 /* Sources */,
+				A22BC6EE1BF499020077D6E4 /* Frameworks */,
+				A22BC6EF1BF499020077D6E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPVideoBackGroundViewControllerDemo;
+			productName = DPVideoBackGroundViewControllerDemo;
+			productReference = A22BC6F11BF499020077D6E4 /* DPVideoBackGroundViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A22BC6E91BF499020077D6E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = yxw;
+				TargetAttributes = {
+					A22BC6F01BF499020077D6E4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A22BC6EC1BF499020077D6E4 /* Build configuration list for PBXProject "DPVideoBackGroundViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A22BC6E81BF499020077D6E4;
+			productRefGroup = A22BC6F21BF499020077D6E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A22BC6F01BF499020077D6E4 /* DPVideoBackGroundViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A22BC6EF1BF499020077D6E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22BC7041BF499020077D6E4 /* LaunchScreen.storyboard in Resources */,
+				A22BC7011BF499020077D6E4 /* Assets.xcassets in Resources */,
+				A22BC6FF1BF499020077D6E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A22BC6ED1BF499020077D6E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22BC6FC1BF499020077D6E4 /* ViewController.m in Sources */,
+				A22BC6F91BF499020077D6E4 /* AppDelegate.m in Sources */,
+				A22BC6F61BF499020077D6E4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A22BC6FD1BF499020077D6E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A22BC6FE1BF499020077D6E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A22BC7021BF499020077D6E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A22BC7031BF499020077D6E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A22BC7061BF499020077D6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A22BC7071BF499020077D6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A22BC7091BF499020077D6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DPVideoBackGroundViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxw.DPVideoBackGroundViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A22BC70A1BF499020077D6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DPVideoBackGroundViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxw.DPVideoBackGroundViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A22BC6EC1BF499020077D6E4 /* Build configuration list for PBXProject "DPVideoBackGroundViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22BC7061BF499020077D6E4 /* Debug */,
+				A22BC7071BF499020077D6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A22BC7081BF499020077D6E4 /* Build configuration list for PBXNativeTarget "DPVideoBackGroundViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22BC7091BF499020077D6E4 /* Debug */,
+				A22BC70A1BF499020077D6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A22BC6E91BF499020077D6E4 /* Project object */;
+}
