@@ -9,10 +9,23 @@
 /* Begin PBXBuildFile section */
 		A22BC6F61BF499020077D6E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC6F51BF499020077D6E4 /* main.m */; };
 		A22BC6F91BF499020077D6E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC6F81BF499020077D6E4 /* AppDelegate.m */; };
-		A22BC6FC1BF499020077D6E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC6FB1BF499020077D6E4 /* ViewController.m */; };
-		A22BC6FF1BF499020077D6E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22BC6FD1BF499020077D6E4 /* Main.storyboard */; };
 		A22BC7011BF499020077D6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22BC7001BF499020077D6E4 /* Assets.xcassets */; };
 		A22BC7041BF499020077D6E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22BC7021BF499020077D6E4 /* LaunchScreen.storyboard */; };
+		A22BC70D1BF499610077D6E4 /* DPVideoNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC70C1BF499610077D6E4 /* DPVideoNavigationViewController.m */; };
+		A22BC7181BF49C5F0077D6E4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22BC7171BF49C5F0077D6E4 /* CoreMedia.framework */; };
+		A22BC71A1BF49CF20077D6E4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22BC7191BF49CF20077D6E4 /* AVFoundation.framework */; };
+		A22BC7341BF49F280077D6E4 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC71E1BF49F280077D6E4 /* MASCompositeConstraint.m */; };
+		A22BC7351BF49F280077D6E4 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC7211BF49F280077D6E4 /* MASConstraint.m */; };
+		A22BC7361BF49F280077D6E4 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC7231BF49F280077D6E4 /* MASConstraintMaker.m */; };
+		A22BC7371BF49F280077D6E4 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC7251BF49F280077D6E4 /* MASLayoutConstraint.m */; };
+		A22BC7381BF49F280077D6E4 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC7291BF49F280077D6E4 /* MASViewAttribute.m */; };
+		A22BC7391BF49F280077D6E4 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC72B1BF49F280077D6E4 /* MASViewConstraint.m */; };
+		A22BC73A1BF49F280077D6E4 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC72D1BF49F280077D6E4 /* NSArray+MASAdditions.m */; };
+		A22BC73B1BF49F280077D6E4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC7301BF49F280077D6E4 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		A22BC73C1BF49F280077D6E4 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC7321BF49F280077D6E4 /* View+MASAdditions.m */; };
+		A22BC7401BF4A1EE0077D6E4 /* DPMoviePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC73F1BF4A1EE0077D6E4 /* DPMoviePlayerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A22BC7441BF4A5200077D6E4 /* DPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BC7431BF4A5200077D6E4 /* DPLoginViewController.m */; };
+		A22BC7491BF581060077D6E4 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A22BC7481BF581060077D6E4 /* test.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +33,42 @@
 		A22BC6F51BF499020077D6E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A22BC6F71BF499020077D6E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A22BC6F81BF499020077D6E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A22BC6FA1BF499020077D6E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A22BC6FB1BF499020077D6E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A22BC6FE1BF499020077D6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A22BC7001BF499020077D6E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A22BC7031BF499020077D6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A22BC7051BF499020077D6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22BC70B1BF499610077D6E4 /* DPVideoNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPVideoNavigationViewController.h; sourceTree = "<group>"; };
+		A22BC70C1BF499610077D6E4 /* DPVideoNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPVideoNavigationViewController.m; sourceTree = "<group>"; };
+		A22BC7171BF49C5F0077D6E4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A22BC7191BF49CF20077D6E4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A22BC71D1BF49F280077D6E4 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		A22BC71E1BF49F280077D6E4 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		A22BC71F1BF49F280077D6E4 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		A22BC7201BF49F280077D6E4 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		A22BC7211BF49F280077D6E4 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		A22BC7221BF49F280077D6E4 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		A22BC7231BF49F280077D6E4 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		A22BC7241BF49F280077D6E4 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		A22BC7251BF49F280077D6E4 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		A22BC7261BF49F280077D6E4 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		A22BC7271BF49F280077D6E4 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		A22BC7281BF49F280077D6E4 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		A22BC7291BF49F280077D6E4 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		A22BC72A1BF49F280077D6E4 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		A22BC72B1BF49F280077D6E4 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		A22BC72C1BF49F280077D6E4 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		A22BC72D1BF49F280077D6E4 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		A22BC72E1BF49F280077D6E4 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		A22BC72F1BF49F280077D6E4 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		A22BC7301BF49F280077D6E4 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		A22BC7311BF49F280077D6E4 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		A22BC7321BF49F280077D6E4 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		A22BC7331BF49F280077D6E4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		A22BC73E1BF4A1EE0077D6E4 /* DPMoviePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPMoviePlayerView.h; sourceTree = "<group>"; };
+		A22BC73F1BF4A1EE0077D6E4 /* DPMoviePlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPMoviePlayerView.m; sourceTree = "<group>"; };
+		A22BC7411BF4A4190077D6E4 /* DPVideoBackGroundViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DPVideoBackGroundViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A22BC7421BF4A5200077D6E4 /* DPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLoginViewController.h; sourceTree = "<group>"; };
+		A22BC7431BF4A5200077D6E4 /* DPLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLoginViewController.m; sourceTree = "<group>"; };
+		A22BC7481BF581060077D6E4 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22BC71A1BF49CF20077D6E4 /* AVFoundation.framework in Frameworks */,
+				A22BC7181BF49C5F0077D6E4 /* CoreMedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +105,16 @@
 			children = (
 				A22BC6F71BF499020077D6E4 /* AppDelegate.h */,
 				A22BC6F81BF499020077D6E4 /* AppDelegate.m */,
-				A22BC6FA1BF499020077D6E4 /* ViewController.h */,
-				A22BC6FB1BF499020077D6E4 /* ViewController.m */,
-				A22BC6FD1BF499020077D6E4 /* Main.storyboard */,
+				A22BC70B1BF499610077D6E4 /* DPVideoNavigationViewController.h */,
+				A22BC70C1BF499610077D6E4 /* DPVideoNavigationViewController.m */,
+				A22BC7421BF4A5200077D6E4 /* DPLoginViewController.h */,
+				A22BC7431BF4A5200077D6E4 /* DPLoginViewController.m */,
+				A22BC73D1BF4A1EE0077D6E4 /* Player */,
+				A22BC71C1BF49F280077D6E4 /* Masonry */,
 				A22BC7001BF499020077D6E4 /* Assets.xcassets */,
 				A22BC7021BF499020077D6E4 /* LaunchScreen.storyboard */,
-				A22BC7051BF499020077D6E4 /* Info.plist */,
+				A22BC7481BF581060077D6E4 /* test.mp4 */,
+				A22BC7471BF57B1B0077D6E4 /* frameworks */,
 				A22BC6F41BF499020077D6E4 /* Supporting Files */,
 			);
 			path = DPVideoBackGroundViewControllerDemo;
@@ -75,8 +124,58 @@
 			isa = PBXGroup;
 			children = (
 				A22BC6F51BF499020077D6E4 /* main.m */,
+				A22BC7051BF499020077D6E4 /* Info.plist */,
+				A22BC7411BF4A4190077D6E4 /* DPVideoBackGroundViewControllerDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A22BC71C1BF49F280077D6E4 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				A22BC71D1BF49F280077D6E4 /* MASCompositeConstraint.h */,
+				A22BC71E1BF49F280077D6E4 /* MASCompositeConstraint.m */,
+				A22BC71F1BF49F280077D6E4 /* MASConstraint+Private.h */,
+				A22BC7201BF49F280077D6E4 /* MASConstraint.h */,
+				A22BC7211BF49F280077D6E4 /* MASConstraint.m */,
+				A22BC7221BF49F280077D6E4 /* MASConstraintMaker.h */,
+				A22BC7231BF49F280077D6E4 /* MASConstraintMaker.m */,
+				A22BC7241BF49F280077D6E4 /* MASLayoutConstraint.h */,
+				A22BC7251BF49F280077D6E4 /* MASLayoutConstraint.m */,
+				A22BC7261BF49F280077D6E4 /* Masonry.h */,
+				A22BC7271BF49F280077D6E4 /* MASUtilities.h */,
+				A22BC7281BF49F280077D6E4 /* MASViewAttribute.h */,
+				A22BC7291BF49F280077D6E4 /* MASViewAttribute.m */,
+				A22BC72A1BF49F280077D6E4 /* MASViewConstraint.h */,
+				A22BC72B1BF49F280077D6E4 /* MASViewConstraint.m */,
+				A22BC72C1BF49F280077D6E4 /* NSArray+MASAdditions.h */,
+				A22BC72D1BF49F280077D6E4 /* NSArray+MASAdditions.m */,
+				A22BC72E1BF49F280077D6E4 /* NSArray+MASShorthandAdditions.h */,
+				A22BC72F1BF49F280077D6E4 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				A22BC7301BF49F280077D6E4 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				A22BC7311BF49F280077D6E4 /* View+MASAdditions.h */,
+				A22BC7321BF49F280077D6E4 /* View+MASAdditions.m */,
+				A22BC7331BF49F280077D6E4 /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		A22BC73D1BF4A1EE0077D6E4 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				A22BC73E1BF4A1EE0077D6E4 /* DPMoviePlayerView.h */,
+				A22BC73F1BF4A1EE0077D6E4 /* DPMoviePlayerView.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		A22BC7471BF57B1B0077D6E4 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A22BC7191BF49CF20077D6E4 /* AVFoundation.framework */,
+				A22BC7171BF49C5F0077D6E4 /* CoreMedia.framework */,
+			);
+			name = frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A22BC7041BF499020077D6E4 /* LaunchScreen.storyboard in Resources */,
+				A22BC7491BF581060077D6E4 /* test.mp4 in Resources */,
 				A22BC7011BF499020077D6E4 /* Assets.xcassets in Resources */,
-				A22BC6FF1BF499020077D6E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +248,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22BC6FC1BF499020077D6E4 /* ViewController.m in Sources */,
+				A22BC73B1BF49F280077D6E4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A22BC7401BF4A1EE0077D6E4 /* DPMoviePlayerView.m in Sources */,
+				A22BC7391BF49F280077D6E4 /* MASViewConstraint.m in Sources */,
 				A22BC6F91BF499020077D6E4 /* AppDelegate.m in Sources */,
+				A22BC70D1BF499610077D6E4 /* DPVideoNavigationViewController.m in Sources */,
+				A22BC73C1BF49F280077D6E4 /* View+MASAdditions.m in Sources */,
+				A22BC7341BF49F280077D6E4 /* MASCompositeConstraint.m in Sources */,
+				A22BC7381BF49F280077D6E4 /* MASViewAttribute.m in Sources */,
+				A22BC7361BF49F280077D6E4 /* MASConstraintMaker.m in Sources */,
+				A22BC73A1BF49F280077D6E4 /* NSArray+MASAdditions.m in Sources */,
+				A22BC7351BF49F280077D6E4 /* MASConstraint.m in Sources */,
+				A22BC7371BF49F280077D6E4 /* MASLayoutConstraint.m in Sources */,
+				A22BC7441BF4A5200077D6E4 /* DPLoginViewController.m in Sources */,
 				A22BC6F61BF499020077D6E4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,14 +268,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A22BC6FD1BF499020077D6E4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A22BC6FE1BF499020077D6E4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A22BC7021BF499020077D6E4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -213,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -261,7 +363,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DPVideoBackGroundViewControllerDemo/DPVideoBackGroundViewControllerDemo-Prefix.pch";
 				INFOPLIST_FILE = DPVideoBackGroundViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yxw.DPVideoBackGroundViewControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +377,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DPVideoBackGroundViewControllerDemo/DPVideoBackGroundViewControllerDemo-Prefix.pch";
 				INFOPLIST_FILE = DPVideoBackGroundViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yxw.DPVideoBackGroundViewControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +406,7 @@
 				A22BC70A1BF499020077D6E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

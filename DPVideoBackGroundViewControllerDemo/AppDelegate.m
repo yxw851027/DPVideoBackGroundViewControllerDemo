@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "DPVideoNavigationViewController.h"
+#import "DPLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    DPLoginViewController *controller = [[DPLoginViewController alloc] init];
+    DPVideoNavigationViewController *naviController = [[DPVideoNavigationViewController alloc] initWithRootViewController:controller];
+    self.window.rootViewController = naviController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
